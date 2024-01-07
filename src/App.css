@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
   h1 {
     font-size: 3rem;
   }
@@ -29,9 +29,7 @@
     line-height: 1;
   }
 }
-/*  global classes */
 
-/* section */
 .section {
   padding: 5rem 0;
 }
@@ -41,7 +39,7 @@
   max-width: var(--max-width);
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 600px) {
   .section-center {
     width: 95vw;
   }
